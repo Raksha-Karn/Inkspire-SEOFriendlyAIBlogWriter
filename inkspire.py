@@ -7,7 +7,7 @@ import google.generativeai as genai
 from IPython.display import Markdown
 
 import PIL.Image
-img = PIL.Image.open('bare.jp')
+img = PIL.Image.open('bare.jpg')
 
 stop_loading = False
 load_dotenv(".env")
